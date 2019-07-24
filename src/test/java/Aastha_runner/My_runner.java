@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber .class)
-@CucumberOptions(features="MyDemo_ddc2",glue="DDC2_MyStepDefinitions",/*tags= {"@R@Smoke"},*/
+@CucumberOptions(features="MyDemo_ddc2",glue="DDC2_MyStepDefinitions",tags= {"@Smoke"},
 plugin={"html:target/cucumber-htmlreport.html"})
 public class My_runner {
 	
